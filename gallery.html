@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        #gallery-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-image: url('your-background-image.jpg');
+            /* Replace with your background image */
+            background-size: cover;
+            background-position: center;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        video {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            max-height: 80vh;
+            /* Set a maximum height (80% of the viewport height) */
+            margin: 0 auto;
+        }
+
+        /* Creative enhancement - border for video */
+        video {
+            border: 2px solid #fff;
+            border-radius: 8px;
+        }
+
+        /* Creative enhancement - hover effect for video */
+        video:hover {
+            transform: scale(1.05);
+            transition: transform 0.2s ease;
+        }
+    </style>
+    <title>Image Gallery</title>
+</head>
+
+<body>
+    <h1>Our Love Story Video Gallery</h1>
+    <div id="gallery-container">
+        <video width="400" controls autoplay>
+            <source src="assets/Design sans titre.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</body>
+
+</html>
